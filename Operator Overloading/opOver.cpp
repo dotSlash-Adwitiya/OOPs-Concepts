@@ -22,6 +22,7 @@ class Complex {
 
     //* Complex add(Complex const &obj) -> This can also be done, but in this
     //* We're trying to demonstrate "OPERATOR Overloading"
+    //* This below is called "Operator Function"
     Complex operator+(Complex const &obj) {
       Complex res;
       res.real = real + obj.real; 
