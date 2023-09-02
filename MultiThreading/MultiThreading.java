@@ -22,7 +22,6 @@ public class MultiThreading {
     System.out.println("Calling start() which further calls run().");
     thread.start();
 
-
     //* We call start method, which further class run() method */
     //* This WILL NOT Create a THREAD because to create a thread,*/
     //* we must call start method() */
