@@ -1,3 +1,5 @@
+
+
 interface A {
   int a = 2;
   default void meth() {
