@@ -1,12 +1,13 @@
 interface A {
   int a = 2;
   default void meth() {
-
+    System.out.println("Meth of Interface A");
   }
 }
 
 interface B   {
   default void meth(){
+    System.out.println("Meth of Interface B");
 
   }
 }
