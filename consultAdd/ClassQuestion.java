@@ -20,7 +20,7 @@ class B extends A{
 public class ClassQuestion {
   public static void main(String[] args) {
     B b = new B();
-    System.out.println(b.fun(2,3.5f));
+    System.out.println(b.fun(2,3.5f);
   }
   
 }
